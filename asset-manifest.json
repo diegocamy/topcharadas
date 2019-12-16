@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/topcharadas/static/css/main.5236ebf0.chunk.css",
+    "main.js": "/topcharadas/static/js/main.93750508.chunk.js",
+    "main.js.map": "/topcharadas/static/js/main.93750508.chunk.js.map",
+    "runtime-main.js": "/topcharadas/static/js/runtime-main.01eaf962.js",
+    "runtime-main.js.map": "/topcharadas/static/js/runtime-main.01eaf962.js.map",
+    "static/js/2.83f409c1.chunk.js": "/topcharadas/static/js/2.83f409c1.chunk.js",
+    "static/js/2.83f409c1.chunk.js.map": "/topcharadas/static/js/2.83f409c1.chunk.js.map",
+    "index.html": "/topcharadas/index.html",
+    "precache-manifest.1333ed0c72e868fa083a282c1186a67e.js": "/topcharadas/precache-manifest.1333ed0c72e868fa083a282c1186a67e.js",
+    "service-worker.js": "/topcharadas/service-worker.js",
+    "static/css/main.5236ebf0.chunk.css.map": "/topcharadas/static/css/main.5236ebf0.chunk.css.map",
+    "static/js/2.83f409c1.chunk.js.LICENSE": "/topcharadas/static/js/2.83f409c1.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01eaf962.js",
+    "static/js/2.83f409c1.chunk.js",
+    "static/css/main.5236ebf0.chunk.css",
+    "static/js/main.93750508.chunk.js"
+  ]
+}
