@@ -2,4 +2,4 @@
 
 Monte uma lista com as melhores e piores charadas da internet!
 
-##[LIVE](https://diegocamy.github.io/topcharadas)
+## [LIVE](https://diegocamy.github.io/topcharadas)
