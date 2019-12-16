@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+body {
+	background-color: dodgerblue;
+	font-family: 'Roboto Slab', serif;
+}
+
+.topcharadas {
+	margin: 10px;
+	height: 95vh;
+	overflow: hidden;
+}
+
+.titulo {
+	margin: 5px auto;
+	margin-top: -5px;
+	color: white;
+	font-size: 1.4rem;
+	width: 50%;
+	padding: 15px;
+	border-radius: 15px;
+	background-color: none;
+}
+
+.titulo button {
+	border: none;
+	background-color: crimson;
+	color: white;
+	font-size: 1.3rem;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.titulo button:hover {
+	background-color: rgb(253, 44, 85);
+	cursor: pointer;
+}
+
+.lista-charadas {
+	height: 70vh;
+	width: 70vw;
+	margin: auto;
+	overflow-y: scroll;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 5px;
+	-webkit-box-shadow: -15px 16px 4px -9px rgba(0, 0, 0, 0.36);
+	-moz-box-shadow: -15px 16px 4px -9px rgba(0, 0, 0, 0.36);
+	box-shadow: -15px 16px 4px -9px rgba(0, 0, 0, 0.36);
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-button {
+	width: 0px;
+	height: 0px;
+}
+::-webkit-scrollbar-thumb {
+	background: #e1e1e1;
+	border: 0px none #ffffff;
+	border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+	background: #888888;
+}
+::-webkit-scrollbar-track {
+	background: #9a9a9a;
+	border: 0px none #ffffff;
+	border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+	background: #666666;
+}
+::-webkit-scrollbar-track:active {
+	background: #333333;
+}
+::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+	.titulo {
+		font-size: 0.8rem;
+		width: 90%;
+	}
+
+	.titulo h1 {
+		margin-bottom: 5px;
+	}
+
+	.titulo button {
+		font-size: 1rem;
+	}
+}
